@@ -1,2 +1,2 @@
-# steerdrive.github.io
-Website, hosted by Github Pages, for Steer Drive Ltd
+# benarmstrong1616.github.io
+Setting up a static van rental site
