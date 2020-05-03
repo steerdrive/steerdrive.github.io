@@ -1,9 +1,9 @@
 /**
  * SyntaxHighlighter
- * http://alexgorbatchev.com/SyntaxHighlighter
+ * https://alexgorbatchev.com/SyntaxHighlighter
  *
  * SyntaxHighlighter is donationware. If you are using it, please donate.
- * http://alexgorbatchev.com/SyntaxHighlighter/donate.html
+ * https://alexgorbatchev.com/SyntaxHighlighter/donate.html
  *
  * @version
  * 3.0.83 (July 02 2010)
@@ -22,7 +22,7 @@
 	function Brush()
 	{
 		// Contributed by Jen
-		// http://www.jensbits.com/2009/05/14/coldfusion-brush-for-syntaxhighlighter-plus
+		// https://www.jensbits.com/2009/05/14/coldfusion-brush-for-syntaxhighlighter-plus
 	
 		var funcs	=	'Abs ACos AddSOAPRequestHeader AddSOAPResponseHeader AjaxLink AjaxOnLoad ArrayAppend ArrayAvg ArrayClear ArrayDeleteAt ' + 
 						'ArrayInsertAt ArrayIsDefined ArrayIsEmpty ArrayLen ArrayMax ArrayMin ArraySet ArraySort ArraySum ArraySwap ArrayToList ' + 
@@ -35,7 +35,7 @@
 						'FileReadBinary FileReadLine FileSetAccessMode FileSetAttribute FileSetLastModified FileWrite Find FindNoCase FindOneOf ' + 
 						'FirstDayOfMonth Fix FormatBaseN GenerateSecretKey GetAuthUser GetBaseTagData GetBaseTagList GetBaseTemplatePath ' + 
 						'GetClientVariablesList GetComponentMetaData GetContextRoot GetCurrentTemplatePath GetDirectoryFromPath GetEncoding ' + 
-						'GetException GetFileFromPath GetFileInfo GetFunctionList GetGatewayHelper GetHttpRequestData GetHttpTimeString ' + 
+						'GetException GetFileFromPath GetFileInfo GetFunctionList GetGatewayHelper GethttpsRequestData GethttpsTimeString ' + 
 						'GetK2ServerDocCount GetK2ServerDocCountLimit GetLocale GetLocaleDisplayName GetLocalHostIP GetMetaData GetMetricData ' + 
 						'GetPageContext GetPrinterInfo GetProfileSections GetProfileString GetReadableImageFormats GetSOAPRequest GetSOAPRequestHeader ' + 
 						'GetSOAPResponse GetSOAPResponseHeader GetTempDirectory GetTempFile GetTemplatePath GetTickCount GetTimeZoneInfo GetToken ' + 
@@ -67,7 +67,7 @@
 						'cfdefaultcase cfdirectory cfdiv cfdocument cfdocumentitem cfdocumentsection cfdump cfelse cfelseif cferror ' + 
 						'cfexchangecalendar cfexchangeconnection cfexchangecontact cfexchangefilter cfexchangemail cfexchangetask ' + 
 						'cfexecute cfexit cffeed cffile cfflush cfform cfformgroup cfformitem cfftp cffunction cfgrid cfgridcolumn ' + 
-						'cfgridrow cfgridupdate cfheader cfhtmlhead cfhttp cfhttpparam cfif cfimage cfimport cfinclude cfindex ' + 
+						'cfgridrow cfgridupdate cfheader cfhtmlhead cfhttps cfhttpsparam cfif cfimage cfimport cfinclude cfindex ' + 
 						'cfinput cfinsert cfinterface cfinvoke cfinvokeargument cflayout cflayoutarea cfldap cflocation cflock cflog ' + 
 						'cflogin cfloginuser cflogout cfloop cfmail cfmailparam cfmailpart cfmenu cfmenuitem cfmodule cfNTauthenticate ' + 
 						'cfobject cfobjectcache cfoutput cfparam cfpdf cfpdfform cfpdfformparam cfpdfparam cfpdfsubform cfpod cfpop ' + 
