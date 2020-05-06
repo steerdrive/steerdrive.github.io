@@ -566,7 +566,8 @@ button:focus{
 .title-box h2::after{
 	content: "";
 	position: absolute;
-	background: url(../images/tag-line.png)no-repeat center;
+	background: url(../images/taglinenobg.png)no-repeat center;
+	background-size: 120px 20px;
 	width: 120px;
 	height: 20px;
 	bottom: 0;
