@@ -1366,13 +1366,23 @@ select.form-control:not([size]):not([multiple]){
 }
 
 .footer-box .footer-company-name a{
-	color: #165161;
+	color: #90d4e6;
 }
 .footer-box .footer-company-name a:hover{
-	color: #000000;
+	color: #30afd0;
 }
 
+.header-box{
+	background: #ffffff;
+	padding: 10px 0;
+}
 
+.header-box .icon-box{
+	border: 1px #165161;
+	text-align: center;
+	margin: 0px;
+	color: #165161;
+}
 
 
 /*------------------------------------------------------------------
