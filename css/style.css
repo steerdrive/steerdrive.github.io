@@ -1355,21 +1355,36 @@ select.form-control:not([size]):not([multiple]){
 }
 
 .footer-box{
-	background: #292f35;
+	background: #d3d3d3;
 	padding: 20px 0;
+}
+
+.footer-box .footer-company-details{
+	text-align: left;
+	margin: 0px;
+	color: #165161;
 }
 
 .footer-box .footer-company-name{
 	text-align: center;
 	margin: 0px;
-	color: #ffffff;
+	color: #165161;
 }
 
 .footer-box .footer-company-name a{
-	color: #90d4e6;
+	color: #85001f;
 }
 .footer-box .footer-company-name a:hover{
-	color: #30afd0;
+	color: #d30031;
+}
+
+.footer-box .footer-icons{
+	color: #85001f;
+	font-size: 40px;
+	text-align: right;
+}
+.footer-box .footer-icons i:hover{
+	color: #165161;
 }
 
 .header-box{
