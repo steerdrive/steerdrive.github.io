@@ -1102,6 +1102,10 @@ select.form-control:not([size]):not([multiple]){
 	color: #165161;
 }
 
+.footer-box .footer-icons a{
+	color: #85001f;
+}
+
 .header-box{
 	background: #ffffff;
 	padding: 10px 0;
