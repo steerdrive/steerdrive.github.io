@@ -327,7 +327,7 @@ button:focus{
 
 .top-header .navbar .navbar-collapse ul li a{
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 13px;
 	padding: 10px 15px;
 	position: relative;
 	font-weight: 700;
@@ -868,6 +868,80 @@ button:focus{
 	color: #ffffff;
 }
 
+.productBox{
+    padding: 35px 20px 25px;
+    border: 1px solid #85001f;
+    text-align: center;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.productBox:before{
+    content: "";
+    border-top: 20px solid #85001f;
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    transition: all 0.3s ease 0s;
+}
+.productBox:hover:before{ border-top-color: #85001f ; }
+
+.productBox:hover{
+    border-width: 3px;
+    background: #f9f9f9;
+}
+
+.productBox .title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #85001f;
+    text-transform: capitalize;
+    margin: 0 0 15px 0;
+	padding: 0;
+}
+.productBox .description{
+    font-size: 13.5px;
+    color: #000000;
+    line-height: 27px;
+    margin: 0 0 10px 0;
+    text-align: justify;
+    text-justify: inter-word;
+}
+@media only screen and (max-width:990px){
+    .productBox{ margin-bottom: 30px; }
+}
+
+.productBox a{
+	border-radius: 2px;
+	transition: .2s;
+	letter-spacing: 1px;
+	background: #ffffff;
+	color: #165161;
+	display: inline-block;
+	line-height: 12px;
+}
+
+.productBox a.new-btn-d.br-2{
+	border: 2px solid #165161;
+}
+.productBox a:hover{
+	color: #85001f;
+}
+.productBox a.new-btn-d::before {
+    background: rgba(18,85,127,0.2);
+}
+
+.productBox img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.securityDesc {
+	text-align: justify;
+  	text-justify: inter-word;
+}
+
 /*------------------------------------------------------------------
     Vehicle
 -------------------------------------------------------------------*/
@@ -922,12 +996,7 @@ button:focus{
 	max-height: 100%;
 }
 
-
-/*------------------------------------------------------------------
-    Covid
--------------------------------------------------------------------*/
-
-.covid-box{
+.elec-box{
 	padding: 70px 20px;
 	background-color: #f2f3f5;
 }
@@ -938,6 +1007,7 @@ button:focus{
 
 .contact-box{
 	padding: 70px 0px;
+	background-color: #f2f3f5;
 }
 
 .left-contact{
