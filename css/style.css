@@ -1250,4 +1250,5 @@ select.form-control:not([size]):not([multiple]){
 .tabcontent img{
 	height: 90%;
 	padding: 10px 20px;
+	width: 100%;
 }
