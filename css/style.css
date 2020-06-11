@@ -1213,7 +1213,7 @@ select.form-control:not([size]):not([multiple]){
   border: 2px solid #85001f;
   background-color: #ffff;
   width: 40%;
-  height: 380px;
+  height: 100%;
 }
 
 .tab button {
@@ -1244,7 +1244,7 @@ select.form-control:not([size]):not([multiple]){
   border: 2px solid #165161;
   width: 60%;
   border-left: none;
-  height: 380px;
+  height: 100%;
   background-color: #ffffff;
 }
 
