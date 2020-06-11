@@ -1008,17 +1008,116 @@ button:focus{
 
 
 /*------------------------------------------------------------------
-    Electric Evo
+    Telematics
 -------------------------------------------------------------------*/
 
-.elec-box{
-	padding: 5px 20px;
+.tele-box{
+	padding: 70px 0px;
 	background-color: #f2f3f5;
 }
+.tele-inner{
+	background: #ffffff;
+	text-align: center;
+	margin-bottom: 30px;
+	border: 10px solid #fff;
+	box-shadow: 0 2px 5px rgba(0,0,0,.1);
+}
 
-.elec-box img{
-	max-width: 80%;
-	max-height: 80%;
+.tele-img{
+	overflow: hidden;
+}
+.tele-img img{
+	transition: all 0.9s ease 0s;
+}
+.tele-inner:hover .tele-img img{
+	-moz-transform: scale(1.5) rotate(-10deg);
+	-webkit-transform: scale(1.5) rotate(-10deg);
+	-ms-transform: scale(1.5) rotate(-10deg);
+	-o-transform: scale(1.5) rotate(-10deg);
+	transform: scale(1.5) rotate(-10deg);
+}
+.tele-inner button{
+	border-radius: 2px;
+	transition: .2s;
+	letter-spacing: 1px;
+	padding: 10px 18px;
+	background: #ffffff;
+	color: #85001f;
+	font-size: 14px;
+	display: inline-block;
+	line-height: 24px;
+}
+
+.tele-inner button.new-btn-d.br-2{
+	border: 2px solid #85001f;
+}
+
+.tele-inner button.new-btn-d::before{
+	background: rgba(18,85,127,0.2);
+}
+
+
+.tele-inner button:hover{
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.tele-inner .item-meta{
+	background: #85001f;
+}
+.tele-inner .item-meta a{
+	background: #85001f;
+	color: #ffffff;
+	display: inline-block;
+	border: none;
+}
+.tele-inner .item-meta span{
+	color: #ffffff;
+	background: #165161;
+	display: inline-block;
+	padding: 5px;
+}
+
+.tele-inner h2{
+	margin-top: 20px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid #85001f;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  text-align: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /*------------------------------------------------------------------
