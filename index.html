@@ -363,7 +363,7 @@
 							<button class="tablinks" onclick="openBody(event, 'Luton')">Luton</button>
 							<button class="tablinks" onclick="openBody(event, 'Tipping')">Tipping Bodies</button>
 							<button class="tablinks" onclick="openBody(event, 'Dropsides')">Dropsides</button>
-							<button class="tablinks" onclick="openBody(event, 'Traffic')">Traffic Management</button>
+							<button class="tablinks" id="traf" onclick="openBody(event, 'Traffic')">Traffic Management</button>
 							<button class="tablinks" onclick="openBody(event, 'Cage')">Cage</button>
 							<button class="tablinks" onclick="openBody(event, 'Bespoke')">Bespoke</button>
 						</div>
@@ -642,10 +642,9 @@
 
 	<script>
 	    var slideIndex = 0;
-		showSlides();
-		document.getElementById("traf").click();
-    	//update this with your js_form selector
-		var form_id_js = "contactForm";
+	    showSlides();
+	    document.getElementById("traf").click();
+	    var form_id_js = "contactForm";
 
 	    var data_js = {
 	        "access_token": "l02tfzp9b7uawrd0ylhzoqp8"
