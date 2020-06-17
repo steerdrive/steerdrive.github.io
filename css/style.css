@@ -1027,14 +1027,19 @@ button:focus{
 	overflow: hidden;
 }
 .tele-img img{
-	transition: all 0.9s ease 0s;
+	transition: all 0.7s ease 0s;
+	-moz-transform: scale(0.8);
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	transform: scale(0.8);
 }
 .tele-inner:hover .tele-img img{
-	-moz-transform: scale(1.5) rotate(-10deg);
-	-webkit-transform: scale(1.5) rotate(-10deg);
-	-ms-transform: scale(1.5) rotate(-10deg);
-	-o-transform: scale(1.5) rotate(-10deg);
-	transform: scale(1.5) rotate(-10deg);
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
 }
 .tele-inner button{
 	border-radius: 2px;
@@ -1056,7 +1061,6 @@ button:focus{
 	background: rgba(18,85,127,0.2);
 }
 
-
 .tele-inner button:hover{
 	color: #ffffff;
 	cursor: pointer;
@@ -1072,8 +1076,8 @@ button:focus{
 	border: none;
 }
 .tele-inner .item-meta span{
-	color: #ffffff;
-	background: #165161;
+	color: #85001f;
+	background: #ffffff;
 	display: inline-block;
 	padding: 5px;
 }
