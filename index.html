@@ -486,7 +486,7 @@
 						</div>
 						<h2>Our partnership with <strong style="color:#09416b;">LEVL</strong></h2>
 						<p>Through our partnership with <strong>LEVL</strong>, we supply and support the world's largest telematics platform <strong>GEOTAB</strong>, providing customers with a reliable solution that ensures positive results for any size fleet. For any enquiries about our telematics solution, please contact us.</p>
-						<a href="#contact" class="new-btn-d br-2">Contact Us</a>
+						<a href="#contact" id="tele-contact" class="new-btn-d br-2">Contact Us</a>
 					</div>
 				</div>
 			</div>
@@ -739,12 +739,15 @@
 		// Get the <span> element that closes the modal
 		var span = document.getElementsByClassName("close");
 
+                var contactA = document.getElementById("tele-contact");
+
 		// When the user clicks the button, open the modal
 		btn[0].onclick = function() {
 		    modal[0].style.display = "block";
 		    btn[0].style.display = "none";
 		    btn[1].style.display = "none";
 		    btn[2].style.display = "none";
+                    contactA.style.display = "none";
 		};
 
 		btn[1].onclick = function() {
@@ -752,6 +755,7 @@
 		    btn[0].style.display = "none";
 		    btn[1].style.display = "none";
 		    btn[2].style.display = "none";
+                    contactA.style.display = "none";
 		};
 
 		btn[2].onclick = function() {
@@ -759,6 +763,7 @@
 		    btn[0].style.display = "none";
 		    btn[1].style.display = "none";
 		    btn[2].style.display = "none";
+                    contactA.style.display = "none";
 		};
 
 		// When the user clicks on <span> (x), close the modal
@@ -767,6 +772,7 @@
 		    btn[0].style.display = "inline-block";
 		    btn[1].style.display = "inline-block";
 		    btn[2].style.display = "inline-block";
+                    contactA.style.display = "inline";
 		};
 
 		span[1].onclick = function() {
@@ -774,6 +780,7 @@
 		    btn[0].style.display = "inline-block";
 		    btn[1].style.display = "inline-block";
 		    btn[2].style.display = "inline-block";
+                    contactA.style.display = "inline";
 		};
 
 		span[2].onclick = function() {
@@ -781,6 +788,7 @@
 		    btn[0].style.display = "inline-block";
 		    btn[1].style.display = "inline-block";
 		    btn[2].style.display = "inline-block";
+                    contactA.style.display = "inline";
 		};
 
     	//update this with your js_form selector
