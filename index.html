@@ -608,7 +608,7 @@
 					  <div class="row">
 						<div class="col-md-6">
 							<div class="form-group">
-								<input type="text" class="form-control" id="email_name" name="email_name" placeholder="Your Name" required data-error="Please enter your name">
+								<input type="text" class="form-control" id="name_contact" name="name_contact" placeholder="Your Name" required data-error="Please enter your name">
 								<div class="help-block with-errors"></div>
 							</div>
 						</div>
@@ -620,23 +620,23 @@
 						</div>
 						<div class="col-md-6">
 							<div class="form-group">
-								<input type="text" placeholder="Contact number (optional)" id="email_number" class="form-control" name="email_number">
+								<input type="text" placeholder="Contact number (optional)" id="number_contact" class="form-control" name="number_contact">
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="form-group">
-								<input type="text" placeholder="Postal Address (optional)" id="email_location" class="form-control" name="email_location">
+								<input type="text" placeholder="Postal Address (optional)" id="address_contact" class="form-control" name="address_contact">
 							</div>
 						</div>
 						<div class="col-md-12">
 							<div class="form-group">
-								<input type="text" placeholder="Message Subject" id="email_subject" class="form-control" name="email_subject" required data-error="Please input a message subject">
+								<input type="text" placeholder="Message Subject" id="subject" class="form-control" name="subject" required data-error="Please input a message subject">
 								<div class="help-block with-errors"></div>
 							</div>
 						</div>
 						<div class="col-md-12">
 							<div class="form-group">
-								<textarea class="form-control" id="email_message" placeholder="Your Message" name="email_message" rows="8" data-error="Write your message" required></textarea>
+								<textarea class="form-control" id="message_contact" placeholder="Your Message" name="message_contact" rows="8" data-error="Write your message" required></textarea>
 								<div class="help-block with-errors"></div>
 							</div>
 							<div class="submit-button text-center">
@@ -799,11 +799,11 @@
 	    };
 
 	    var sendButton = document.getElementById("email_submit");
-	    var subjectBox = document.querySelector("#" + form_id_js + " [name='email_subject']");
-	    var messageBox = document.querySelector("#" + form_id_js + " [name='email_message']");
-	    var numberBox = document.querySelector("#" + form_id_js + " [name='email_number']");
-	    var locationBox = document.querySelector("#" + form_id_js + " [name='email_location']");
-	    var nameBox = document.querySelector("#" + form_id_js + " [name='email_name']");
+	    var subjectBox = document.querySelector("#" + form_id_js + " [name='subject']");
+	    var messageBox = document.querySelector("#" + form_id_js + " [name='message_contact']");
+	    var numberBox = document.querySelector("#" + form_id_js + " [name='number_contact']");
+	    var locationBox = document.querySelector("#" + form_id_js + " [name='address_contact']");
+	    var nameBox = document.querySelector("#" + form_id_js + " [name='name_contact']");
 	    var emailaddrBox = document.querySelector("#" + form_id_js + " [name='email_address']");
 
 	    function js_onSuccess() {
