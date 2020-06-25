@@ -1239,12 +1239,18 @@ select.form-control:not([size]):not([multiple]){
 }
 
 .alert-box{
-	background: #85001f;
+	background: linear-gradient(to right, #85001f 0%, #85001f 50%, #165161 50%, #165161 100%);
 	padding: 10px;
 	margin: 0px;
 	text-align: center;
 	color: #ffffff;
-	font-size: 20px;
+	font-size: 18px;
+}
+
+.alert-box .ealert a:hover{
+	background: #ffffff;
+	color: #165161;
+	border-color: #165161;
 }
 
 .alert-box a{
