@@ -1361,3 +1361,85 @@ select.form-control:not([size]):not([multiple]){
 	padding: 10px 20px;
 	width: 100%;
 }
+
+/* Style the tab */
+.vtab {
+  overflow: hidden;
+  border: 2px solid #165161;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.vtab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.vtab button:hover {
+  background-color: #ccc;
+}
+
+/* Create an active/current tablink class */
+.vtab button.active {
+  background-color: #165161;
+  color: #ffffff;
+}
+
+/* Style the tab content */
+.vtabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 2px solid #85001f;
+  border-top: none;
+}
+
+.ptab {
+  float: left;
+  border: 2px solid #85001f;
+  background-color: #ffff;
+  width: 100%;
+  height: 100%;
+}
+
+.ptab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 10px 20px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.ptab button:hover {
+  background-color: #ddd;
+}
+
+.ptab button.active {
+  background-color: #85001f;
+  color: white;
+}
+
+.ptabcontent {
+  float: left;
+  padding: 10px 12px;
+  border: 2px solid #165161;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.ptabcontent img{
+	height: 100%;
+	width: 100%;
+}
